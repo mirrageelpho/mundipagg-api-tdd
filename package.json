@@ -1,0 +1,38 @@
+{
+  "name": "mundipagg-api-tdd",
+  "version": "1.0.0",
+  "description": "Integração mundipagg orientado a testes",
+  "main": "./src/index.js",
+  "scripts": {
+    "dev": "nodemon src/index.js",
+    "start": "node src/index.js",
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mirrageelpho/mundipagg-api-tdd.git"
+  },
+  "keywords": [
+    "Node",
+    "Mundipagg",
+    "TDD",
+    "Sequelize",
+    "Javascript"
+  ],
+  "author": "Aécio Cleber",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mirrageelpho/mundipagg-api-tdd/issues"
+  },
+  "homepage": "https://github.com/mirrageelpho/mundipagg-api-tdd#readme",
+  "dependencies": {
+    "dotenv": "^8.1.0",
+    "express": "^4.17.1",
+    "mysql2": "^1.6.5",
+    "sequelize": "^5.15.1"
+  },
+  "devDependencies": {
+    "nodemon": "^1.19.1",
+    "sequelize-cli": "^5.5.0"
+  }
+}
